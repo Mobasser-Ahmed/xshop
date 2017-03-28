@@ -1,0 +1,199 @@
+ <web-app>
+	
+         <servlet>		
+			<servlet-name>CategoryAddServlet</servlet-name>
+			<servlet-class>xshop.app.CategoryAddServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>CategoryAddServlet</servlet-name>
+			<url-pattern>/add-category</url-pattern>
+	  </servlet-mapping>
+
+ 	  <servlet>		
+			<servlet-name>CategoryListServlet</servlet-name>
+			<servlet-class>xshop.app.CategoryListServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>CategoryListServlet</servlet-name>
+			<url-pattern>/list-category</url-pattern>
+	  </servlet-mapping>
+
+
+
+	 <servlet>		
+			<servlet-name>CategoryDeleteServlet</servlet-name>
+			<servlet-class>xshop.app.CategoryDeleteServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>CategoryDeleteServlet</servlet-name>
+			<url-pattern>/delete-category</url-pattern>
+	  </servlet-mapping>
+
+
+	   <servlet>		
+			<servlet-name>CategoryEditServlet</servlet-name>
+			<servlet-class>xshop.app.CategoryEditServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>CategoryEditServlet</servlet-name>
+			<url-pattern>/edit-category</url-pattern>
+	  </servlet-mapping>
+
+
+
+
+ 	 <servlet>		
+			<servlet-name>ProductAddServlet</servlet-name>
+			<servlet-class>xshop.app.ProductAddServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>ProductAddServlet</servlet-name>
+			<url-pattern>/add-product</url-pattern>
+	  </servlet-mapping>
+
+ 	
+
+
+	  <servlet>		
+			<servlet-name>ProductListServlet</servlet-name>
+			<servlet-class>xshop.app.ProductListServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>ProductListServlet</servlet-name>
+			<url-pattern>/list-product</url-pattern>
+	  </servlet-mapping>
+
+ 	 <servlet>		
+			<servlet-name>ProductEditServlet</servlet-name>
+			<servlet-class>xshop.app.ProductEditServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>ProductEditServlet</servlet-name>
+			<url-pattern>/edit-product</url-pattern>
+	  </servlet-mapping>
+
+
+	 <servlet>		
+			<servlet-name>ProductDeleteServlet</servlet-name>
+			<servlet-class>xshop.app.ProductDeleteServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>ProductDeleteServlet</servlet-name>
+			<url-pattern>/delete-product</url-pattern>
+	  </servlet-mapping>
+
+
+
+
+  	  <servlet>		
+			<servlet-name>SupplierListServlet</servlet-name>
+			<servlet-class>xshop.app.SupplierListServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>SupplierListServlet</servlet-name>
+			<url-pattern>/list-supplier</url-pattern>
+	  </servlet-mapping>
+
+ 	 <servlet>		
+			<servlet-name>SupplierEditServlet</servlet-name>
+			<servlet-class>xshop.app.SupplierEditServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>SupplierEditServlet</servlet-name>
+			<url-pattern>/edit-supplier</url-pattern>
+	  </servlet-mapping>
+
+
+	 <servlet>		
+			<servlet-name>SupplierDeleteServlet</servlet-name>
+			<servlet-class>xshop.app.SupplierDeleteServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>SupplierDeleteServlet</servlet-name>
+			<url-pattern>/delete-supplier</url-pattern>
+	  </servlet-mapping>
+
+ 	  <servlet>		
+			<servlet-name>SupplierAddServlet</servlet-name>
+			<servlet-class>xshop.app.SupplierAddServlet</servlet-class>
+	  </servlet>
+	  <servlet-mapping>
+			<servlet-name>SupplierAddServlet</servlet-name>
+			<url-pattern>/add-supplier</url-pattern>
+	  </servlet-mapping>
+
+<servlet>
+ 	<servlet-name>RegisterServlet</servlet-name>
+ 	<servlet-class>xshop.app.RegisterServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>RegisterServlet</servlet-name>
+ 	<url-pattern>/RegisterServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>LoginServlet</servlet-name>
+ 	<servlet-class>xshop.app.LoginServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>LoginServlet</servlet-name>
+ 	<url-pattern>/LoginServlet</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>AdminServlet</servlet-name>
+ 	<servlet-class>xshop.app.AdminServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>AdminServlet</servlet-name>
+ 	<url-pattern>/AdminServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>UserServlet</servlet-name>
+ 	<servlet-class>xshop.app.UserServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>UserServlet</servlet-name>
+ 	<url-pattern>/UserServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>ProfileServlet</servlet-name>
+ 	<servlet-class>xshop.app.ProfileServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>ProfileServlet</servlet-name>
+ 	<url-pattern>/ProfileServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>ChangePassServlet</servlet-name>
+ 	<servlet-class>xshop.app.ChangePassServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>ChangePassServlet</servlet-name>
+ 	<url-pattern>/ChangePassServlet</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>ViewUserServlet</servlet-name>
+ 	<servlet-class>xshop.app.ViewUserServlet</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ 	<servlet-name>ViewUserServlet</servlet-name>
+ 	<url-pattern>/ViewUserServlet</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+ 	<servlet-name>Logout</servlet-name>
+ 	<servlet-class>xshop.app.Logout</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>Logout</servlet-name>
+ 	<url-pattern>/Logout</url-pattern>
+ </servlet-mapping>
+
+
+   </web-app>
